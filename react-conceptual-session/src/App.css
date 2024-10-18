@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+body{
+  text-align: center;
+}
+.hero {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+button{
+  margin: 5px ;
+  padding: 10px;
+  border: 2px solid rebeccapurple;
+}
