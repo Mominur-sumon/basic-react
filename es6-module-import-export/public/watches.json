@@ -1,0 +1,43 @@
+[
+    {
+      "brand": "Apple",
+      "model": "Apple Watch Series 8",
+      "price": 399999,
+      "features": ["Heart Rate Monitor", "GPS", "ECG", "Blood Oxygen Monitoring", "Water Resistant"],
+      "batteryLife": "18 hours",
+      "compatibility": ["iOS"]
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Watch 5",
+      "price": 279,
+      "features": ["Heart Rate Monitor", "GPS", "Sleep Tracking", "SpO2", "Water Resistant"],
+      "batteryLife": "50 hours",
+      "compatibility": ["Android", "iOS"]
+    },
+    {
+      "brand": "Garmin",
+      "model": "Garmin Forerunner 245",
+      "price": 299,
+      "features": ["Heart Rate Monitor", "GPS", "VO2 Max", "Sleep Tracking", "Water Resistant"],
+      "batteryLife": "7 days",
+      "compatibility": ["Android", "iOS"]
+    },
+    {
+      "brand": "Fitbit",
+      "model": "Fitbit Versa 4",
+      "price": 229,
+      "features": ["Heart Rate Monitor", "GPS", "Sleep Tracking", "SpO2", "Water Resistant"],
+      "batteryLife": "6 days",
+      "compatibility": ["Android", "iOS"]
+    },
+    {
+      "brand": "Amazfit",
+      "model": "Amazfit GTS 4 Mini",
+      "price": 99,
+      "features": ["Heart Rate Monitor", "GPS", "Sleep Tracking", "SpO2", "Water Resistant"],
+      "batteryLife": "15 days",
+      "compatibility": ["Android", "iOS"]
+    }
+  ]
+  
