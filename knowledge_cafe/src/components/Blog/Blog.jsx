@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import { IoBookmarkSharp } from "react-icons/io5";
+import Blogs from '../Blogs/Blogs';
+
 
 const Blog = ({ blog,  handelBookmark }) => {
     const { title, cover, author, author_img, reading_time, posted_date, hashtags } = blog;
@@ -18,7 +20,7 @@ const Blog = ({ blog,  handelBookmark }) => {
                 </div>
                 <div className='flex items-center'>
                     <span>{reading_time} min read</span>
-                    <button onClick={ handelBookmark} className='ml-2 text-red-600 text-2xl'><IoBookmarkSharp /></button>
+                    <button onClick={()=> handelBookmark(blog)} className='ml-2 text-red-600 text-2xl'><IoBookmarkSharp /></button>
                 </div>
             </div>
             <h2 className='text-4xl'>{title}</h2>
@@ -32,6 +34,10 @@ const Blog = ({ blog,  handelBookmark }) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handelBookmark: PropTypes.func
+
 }
+
+
 export default Blog;
