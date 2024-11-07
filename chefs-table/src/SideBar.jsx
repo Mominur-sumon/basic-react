@@ -1,11 +1,14 @@
+import PropTypes from "prop-types";
 
 
-const SideBar = () => {
+const SideBar = ({recipieQueue}) => {
     return (
         <div className="md:w-1/3">
-            <h2>Side bar</h2>
+          Want to Cook : {recipieQueue.length}
         </div>
     );
 };
-
+SideBar.PropTypes = {
+    recipieQueue: PropTypes.array.isRequired
+}
 export default SideBar;
